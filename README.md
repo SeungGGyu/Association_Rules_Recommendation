@@ -26,7 +26,19 @@ R을 사용하여 연관규칙 분석을 수행하였다. 최소 지지도와 �
 ### 4.3 세트메뉴 추천 전략
 1) 고정된 세트메뉴 추천: 가장 인기 있는 메뉴 조합을 기준으로 고정된 세트메뉴를 추천한다
 
+![1](https://github.com/user-attachments/assets/b9766a6f-8475-4e7c-8f2e-c4fca26ed6f7)
+Support = 0.1 / Confidence=0.0 / minlen=2
 
+
+![2](https://github.com/user-attachments/assets/c1e868c1-8fb2-4433-a8c5-c11370610863)
+Support = 0.09 / Confidence=0.0 / minlen=2
+
+
+![3](https://github.com/user-attachments/assets/534353af-c9e1-4c79-86a2-6c2bb4ea1de4)
+Support = 0.05 / Confidence=0.0 / minlen=2
 
 
 2) 개별 메뉴 선택 시 추천: 특정 메뉴를 선택했을 때 자주 함께 주문되는 메뉴를 추천합니다. 이 경우에는 신뢰도가 높은 조합을 우선적으로 제안한다.
+
+3) ![4](https://github.com/user-attachments/assets/8a04fbab-6527-4106-b369-7dc199371744)
+Support = 0.001 / Confidence=0.5 / minlen=2
